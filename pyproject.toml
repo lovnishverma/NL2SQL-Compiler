@@ -1,0 +1,15 @@
+[project]
+name = "nl2sql-compiler"
+version = "0.1.0"
+description = "Compiler-based Natural Language to SQL system"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
