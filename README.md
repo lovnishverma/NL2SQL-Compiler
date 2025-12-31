@@ -219,8 +219,8 @@ These exclusions are **intentional** to preserve correctness guarantees.
 ### 9.2 Installation
 
 ```bash
-git clone <repo-url>
-cd nl2sql-compiler
+git clone https://github.com/lovnishverma/NL2SQL-Compiler.git
+cd NL2SQL-Compiler
 pip install -e .
 ```
 
